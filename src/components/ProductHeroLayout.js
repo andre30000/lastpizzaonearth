@@ -50,7 +50,7 @@ function ProductHeroLayout(props) {
           alt="wonder"
           width="294"
           height="160"
-          sx={{ height: 160, borderRadius: 5, mt: 20, mb: 5, boxShadow: 3 }}
+          sx={{ height: 160, borderRadius: 5, mt: {lg: 20, xs: 2}, mb: 5, boxShadow: 3 }}
         ></Box>
         {children}
         <Box
